@@ -2,6 +2,7 @@
 #include <pthread.h>
 #define N 5
 pthread_mutex_t cks[N];
+
 int main()
 {
     pthread_t t[N];
